@@ -7,7 +7,7 @@ import React from "react";
 function MainRouter() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/weather" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
