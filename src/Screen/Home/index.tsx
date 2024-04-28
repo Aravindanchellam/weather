@@ -13,6 +13,7 @@ function Home() {
     getMyLocation();
   }, []);
 
+
   function getMyLocation() {
     setLoading(true);
     const location = window.navigator && window.navigator.geolocation;
